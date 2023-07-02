@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="convertor">
+    <div class="col-lg-3"></div>
+    <div class="header"><h1>Age Calculator</h1></div>
+    <div class="form-box">
+       
+        <label for="dob"> <h4>Date of Birth :</h4></label>
+        <input id="dob"  class="dob-box"  type="date" placeholder="Enter date">
+        <button class="input-button" onclick="calculateAge()">Calculate Age</button>
+</div>
+<div class="results">
+    <ul >
+        <p><h5>  <span id="Years">Age in Years</span></h5></p>
+        <p><h5> <span id="Months"> Age in Months</span></h5></p>
+        <p><h5> <span id="Days"> Age in Days</span></h5></li>
+        <p><h5> <span id="Hours"> Age in Hours</span></h5></li>
+        <p><h5> <span id="Minutes"> Age in Minutes</span></h5></li>
+        <p><h5> <span id="Seconds"> Age in Seconds</span></h5></p>
+    </ul>
+</div>
+</div>
+<div class="footer">
+    <h4 style="font-family: Arial, sans-serif; color: #333; text-align: center; margin-top: 20px;">Mrx-solutions.Inc &copy; 2023</h4>
+  </div>
+  
+<script src="Script/dom.js"></script>
+</body>
+</html>

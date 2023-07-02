@@ -1,0 +1,58 @@
+
+.header{
+    text-align: center;
+    background-color: blue;
+    text-decoration-color: white;
+    padding: 100px;
+    padding-bottom: 70px;
+}
+h1{
+    color: white;
+}
+
+.form-box{
+    background-color: #ccffff;
+    text-align: center;
+    padding: 140px;
+}
+.dobi{
+    padding-bottom: 20px;
+}
+.dob-box{
+    padding: 9px 15px;
+    font-size: 12px;
+}
+.input-button {
+    display: inline-block;
+    padding: 9px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:blue;
+    border: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .input-button:hover {
+    background-color: peru;
+  }
+  .results{
+    background-color: #ccffff;
+    text-align: center;
+    padding: 9px 15px;
+    font-size: 12px;
+  }
+  .footer{
+    text-align: center;
+    background-color: blue;
+    text-decoration-color: white;
+    padding: 100px;
+    padding-bottom: 70px;
+  }
+  .h7{
+    text-align: center;
+    padding: 10px;
+    color: #ccffff;
+  }
